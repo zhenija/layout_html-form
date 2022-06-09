@@ -1,9 +1,9 @@
 /* styles go here */
 .label {
   display: block;
-  margin: 10px;
+  margin: 10px 0;
 }
 
 .fieldset {
-  margin: 20px;
+  margin: 20px 0;
 }
