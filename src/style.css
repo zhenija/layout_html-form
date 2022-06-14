@@ -1,9 +1,17 @@
 /* styles go here */
 .label {
   display: block;
-  margin: 10px 0;
+  margin-top: 10px;
+}
+
+.label:nth-child(2) {
+  margin-top: 0;
 }
 
 .fieldset {
-  margin: 20px 0;
+  margin-top: 20px;
+}
+
+.form fieldset:first-of-type {
+  margin-top: 0;
 }

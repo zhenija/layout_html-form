@@ -12,8 +12,10 @@
   </head>
   <body>
     <script type="text/javascript" src="./main.js"></script>
-    <form action ="https://mate-academy-form-lesson.herokuapp.com/create-application" 
-      method="post">
+    <form 
+      action ="https://mate-academy-form-lesson.herokuapp.com/create-application" 
+      method="post"
+      class="form">
 
       <fieldset class="fieldset">
 
@@ -21,8 +23,10 @@
 
         <label class="label">
           Surname:
-          <input type ="text" name ="Surname"
-           autocomplete="off">
+          <input
+            type ="text" 
+            name ="Surname"
+            autocomplete="off">
         </label>
 
         <label class="label">
@@ -47,7 +51,7 @@
 
         <label class="label">
           Full date of birth:
-          <input type ="date" name ="Date_of_birth">
+          <input type ="date" name ="DateOfBirth">
         </label>
 
         <label class="label">
@@ -61,16 +65,20 @@
 
         <label class="label">
           E-mail:
-          <input type ="email" name ="Email" 
-          placeholder="email@example.com">
+          <input
+            type ="email" 
+            name ="Email" 
+            placeholder="email@example.com">
         </label>
 
         <label class="label">
           Password
-          <input type ="password" name ="Password" 
-          required
-          minlength="5"
-          maxlength="20">
+          <input
+            type ="password" 
+            name ="Password" 
+            required
+            minlength="5"
+            maxlength="20">
         </label>
       </fieldset>
 
@@ -80,13 +88,17 @@
         <label class="label">
           Do you love cats?
           <label class="radio">
-            <input type ="radio" name ="Catlover"
-             value="Yes">
+            <input
+              type ="radio"
+              name ="Catlover"
+              value="Yes">
           Yes
           </label>
           <label class="radio">
-            <input type ="radio" name ="Catlover" 
-          value="No">
+            <input 
+              type ="radio" 
+              name ="Catlover" 
+              value="No">
           No
           </label>
         </label>
@@ -99,12 +111,12 @@
         
         <label class="label">
           What time do you go to bed?
-          <input type ="time" name ="Bed_time">
+          <input type ="time" name ="BedTime">
         </label>
 
         <label class="label">
           What are your favorite brand of cars?
-          <select name ="Car_brand" multiple>
+          <select name ="CarBrand" multiple>
             <option value ="BMW">BMW</option>
             <option value ="AUDI">Audi</option>
             <option value ="Lada">Lada</option>
@@ -114,7 +126,7 @@
 
         <label class="label">
           How do you rate our work?
-          <input type ="range" name ="Work_rate">
+          <input type ="range" name ="WorkRate">
         </label>
 
       </fieldset>
